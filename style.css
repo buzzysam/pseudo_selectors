@@ -1,0 +1,21 @@
+div
+{
+    height: 50pt;
+    width: 100pt;
+    border: solid black 2px;
+}
+div.clickhere:hover
+{
+    background-color: brown;
+    color: blue;
+    font-size: 20pt;
+    font-weight: bold;
+}
+div:active
+{
+    font-style: italic;
+}
+input:focus
+{
+    font-size: 25pt;
+}
